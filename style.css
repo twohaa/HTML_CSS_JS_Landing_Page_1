@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Ubuntu", sans-serif; */
+}
+.container {
+  max-width: 80vw;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+.topleft {
+  width: 50%;
+}
+.topleft img {
+  width: 150px;
+}
+.topleft h1 {
+  font-size: 2rem;
+}
+.topleft p {
+  margin: 10px 0;
+}
+.topright {
+  width: 50%;
+}
+.topright img {
+  width: 400px;
+  height: 400px;
+  padding: 5px 0;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+}
+.buttons .btnn {
+  width: 30%;
+  color: white;
+  background: crimson;
+  padding: 13px;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.buttons .btnn:hover {
+  background: white;
+  color: crimson;
+}
+
+.section2 {
+  padding: 20px;
+}
+.section2 h1 {
+  font-size: 2rem;
+}
+.section2 p {
+  padding: 0 10vw;
+  text-align: center;
+}
+.box {
+  padding: 8px 0;
+  margin: 12px 22px;
+  min-width: 23vw;
+  border: 2px solid rgb(120, 128, 12);
+  border-radius: 7px;
+}
+.box h1 {
+  font-size: 2.5rem;
+  padding: 12px 0;
+}
+.box li {
+  list-style: none;
+  margin: 12px 2px;
+}
+
+.section3 {
+  padding: 20px;
+}
+.section3 h1 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+.plantable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section3 table {
+  width: 100%;
+  margin-top: 22px;
+  margin-bottom: 100px;
+  border-collapse: collapse;
+}
+.section3 table th {
+  width: 23vw;
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+}
+.section3 table td {
+  border-bottom: 2px solid black;
+}
+
+footer {
+  padding: 23px;
+  text-align: center;
+}
